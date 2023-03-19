@@ -135,6 +135,7 @@ main {
   }
 
   .social-media-btns {
+    margin-top: 0;
     justify-content: end;
   }
 }
