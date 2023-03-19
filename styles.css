@@ -7,18 +7,93 @@
 }
 
 :root {
-  --violet: hsl(257, 40%, 49%);
-  --soft-magenta: hsl(300, 69%, 71%);
+  --violet: #674baf;
+  --soft-magenta: #e882e8;
+  --hot-pink: #ff52c1;
+  --white: #fff;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  background: url("./images/bg-mobile.svg"), var(--violet);
+  margin: 0 40px;
+  color: var(--white);
 }
 
-/*
-heading
-font-family: 'Poppins', sans-serif;
-*/
+main {
+  text-align: center;
+}
+
+.huddle-logo {
+  margin-top: 38px;
+  width: 120px;
+}
+
+.hero-img {
+  width: 296px;
+  height: 209px;
+  margin-top: 69px;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.register-btn {
+  color: var(--violet);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  background: var(--white);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+  border-radius: 20px;
+  border: none;
+  padding: 11px 75px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  color: var(--white);
+  background-color: var(--soft-magenta);
+}
+
+.social-media-btns {
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  border-radius: 50%;
+  border: 0.798301px solid var(--white);
+  padding: 7px 10px;
+}
+
+.fa-brands:hover {
+  color: var(--hot-pink);
+  border: 0.798301px solid var(--hot-pink);
+}
+
+.fa-twitter {
+  margin: 0 10px;
+}
 
 @media (min-width: 90em) {
+  body {
+    background: url("./images/bg-desktop.svg");
+  }
 }
