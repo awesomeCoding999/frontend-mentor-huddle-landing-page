@@ -17,7 +17,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   background: url("./images/bg-mobile.svg"), var(--violet);
-  margin: 0 40px;
+  margin: 0 2.5rem;
   color: var(--white);
 }
 
@@ -26,27 +26,27 @@ main {
 }
 
 .huddle-logo {
-  margin-top: 38px;
+  margin-top: 2.375rem;
   width: 120px;
 }
 
 .hero-img {
   width: 296px;
   height: 209px;
-  margin-top: 69px;
-  margin-bottom: 60px;
+  margin-top: 4.313rem;
+  margin-bottom: 3.75rem;
 }
 
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 36px;
 }
 
 .description {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
@@ -55,13 +55,13 @@ main {
 .register-btn {
   color: var(--violet);
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 18px;
   background: var(--white);
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
   border-radius: 20px;
   border: none;
-  padding: 11px 75px;
+  padding: 0.688rem 4.688rem;
   cursor: pointer;
 }
 
@@ -80,7 +80,8 @@ main {
 .fa-brands {
   border-radius: 50%;
   border: 0.798301px solid var(--white);
-  padding: 7px 10px;
+  padding: 0.438rem 0.625rem;
+  cursor: pointer;
 }
 
 .fa-brands:hover {
@@ -89,23 +90,24 @@ main {
 }
 
 .fa-twitter {
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
 
 @media (min-width: 90em) {
   body {
-    margin: 0 80px;
+    margin: 0 5rem;
     background: url("./images/bg-desktop.svg"), var(--violet);
   }
 
   .huddle-logo {
-    margin-top: 64px;
-    margin-bottom: 104px;
+    margin-top: 4rem;
+    margin-bottom: 6.5rem;
     width: 200px;
   }
 
   main {
     display: flex;
+    justify-content: center;
   }
 
   .hero-img {
@@ -116,22 +118,19 @@ main {
 
   .main-content {
     text-align: left;
-    margin-top: 30px;
-    margin-left: 59px;
+    margin-top: 1.875rem;
+    margin-left: 3.688rem;
+    width: 520px;
   }
 
   .title {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 60px;
   }
 
-  .description {
-    font-size: 18px;
-    line-height: 27px;
-  }
-
+  .description,
   .register-btn {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
   }
 }
