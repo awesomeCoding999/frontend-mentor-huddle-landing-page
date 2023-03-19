@@ -94,6 +94,44 @@ main {
 
 @media (min-width: 90em) {
   body {
-    background: url("./images/bg-desktop.svg");
+    margin: 0 80px;
+    background: url("./images/bg-desktop.svg"), var(--violet);
+  }
+
+  .huddle-logo {
+    margin-top: 64px;
+    margin-bottom: 104px;
+    width: 200px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .hero-img {
+    margin-top: 0;
+    width: 696px;
+    height: 493px;
+  }
+
+  .main-content {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 59px;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .register-btn {
+    font-size: 18px;
+    line-height: 27px;
   }
 }
