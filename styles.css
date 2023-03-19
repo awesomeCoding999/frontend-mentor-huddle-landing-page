@@ -133,4 +133,8 @@ main {
     font-size: 1.125rem;
     line-height: 27px;
   }
+
+  .social-media-btns {
+    justify-content: end;
+  }
 }
